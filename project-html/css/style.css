@@ -54,3 +54,11 @@
             color: #fff;
         }
     
+
+        #customerTable th, #customerTable td{
+            border: 20px solid rgb(236, 9, 115);
+            padding: 20px;
+            border-collapse: collapse;
+
+        }
+
