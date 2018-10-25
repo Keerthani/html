@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Learning about the html table</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <table style="width:100%">
+            <tr class="tableRow">   
+              <th class="tableHead">Firstname</th>
+              <th>Lastname</th> 
+              <th>Age</th>
+              <th>Place</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td> 
+              <td>50</td>
+              <td>America</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td> 
+              <td>94</td>
+              <td>Aftrica</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td> 
+                <td>94</td>
+                <td>America</td>
+              </tr>
+          </table>
+
+          <table style="width:100%">
+            <tr class="tableRow">   
+              <th class="tableHead">Firstname</th>
+              <th>Lastname</th> 
+              <th>Age</th>
+              <th>Place</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td> 
+              <td>50</td>
+              <td>America</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td> 
+              <td>94</td>
+              <td>Aftrica</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td> 
+                <td>94</td>
+                <td>America</td>
+              </tr>
+              <tr>
+                <td>Eve</td>
+                <td>Jackson</td> 
+                <td>94</td>
+                <td>America</td>
+              </tr>
+              <tr>
+                <td>Eve</td>
+                <td>Jackson</td> 
+                <td>94</td>
+                <td>America</td>
+              </tr>
+          </table>
+       
+    </body>
+      
+    <style>
+    
+    body{
+        padding: 100px 100px 100px 0px;
+    }
+    
+
+    table{
+            background : white;
+            padding: 40px;
+            
+        }
+
+        th{
+            background : gray;
+            color: white;
+            padding: 25px;
+            border: 1px dotted black;
+        }
+
+        
+        tr{
+           
+            color: green;
+        }
+
+        td{
+            padding: 10px;
+            border: px dotted black;
+        }
+ 
+        td:last-child {
+/* //background: coral; */
+            color: white            
+        }
+
+         td:first-child {
+          /* //  background: orange; */
+            color: white ;           
+        }
+        td:nth-child(2), th:nth-child(2){
+            font-style: italic;
+            text-align: center;
+        }
+
+        tr:nth-child(odd){
+            background-color: #4C8BF5;
+            color: #fff;
+        }
+
+        tr:nth-child(even){
+            background-color: rgb(7, 247, 87);
+            color: #fff;
+        }
+        
+    </style>
+
+</html>
+
